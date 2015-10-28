@@ -1,0 +1,260 @@
+html, body {
+	background-color: #ebebeb;
+	font-family: 'Lato', 'san-serif';
+	height: 100%;
+	line-height: 1.6em;
+	margin: 0;
+	width: 100%;
+}
+
+header {
+	position: fixed;
+	margin: 0;
+	top: 0px;
+	background-color: white;
+	z-index: 1;
+	height: 130px;
+	width: 100%;
+}
+
+.vertcenter { /* if there is a problem with blurriness revisit http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ - scroll to bottom of article above comments */
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#header-topcontainer {
+	height: 50px;
+	margin: 0 auto;
+	width: 1280px;
+	left: 10%;
+	min-width: 1280px;
+}
+
+#header-maincontainer {
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #ebebeb;
+	height: 61px;
+	margin: 0 auto;
+	width: 1280px;
+	left: 10%;
+	min-width: 1280px;
+}
+
+#gestureworks_icon {
+	left: 10%;
+	float: left;
+}
+
+
+#headerright {
+	margin: auto;
+	height: 30px;
+	right: 10%;
+	float: right;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+	outline: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+}
+
+.headerlink {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.headerone {
+	font-size: 40px;
+	font-weight:400;
+	line-height: 1em;
+	margin-top: 14px;
+}
+
+.white {
+	color: white;
+}
+
+.black {
+	color: black;
+}
+
+#homepg {
+	position: relative;
+	top: 122px;
+}
+
+#gestureworks_core_container {
+	background-image: url("/images/sec-intro-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    box-sizing: border-box;
+	height: 480px;
+	margin:0 auto;
+	max-width: 1280px;
+	min-width: 1280px;
+	padding: 0 7.75%;
+	position: relative;
+}
+
+#gestureworks_core_innercontainer {
+	width: 400px;
+}
+
+#multiple_languages_container {
+	position: relative;
+	background-image: url("/images/sec-lang-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 480px;
+	margin: 0 auto;
+	max-width: 1280px;
+	min-width: 1280px;
+	padding: 0 7.75%;
+  box-sizing: border-box;
+}
+
+#mult_lang_img {
+	display:inline-block;
+	float:left;
+}
+
+#multiple_languages_innercontainer {
+	float:right;
+	width: 400px;
+}
+
+#advanced_framework_container {
+	position: relative;
+	background-image: url("/images/sec-system-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	height: 480px;
+	max-width: 1280px;
+	min-width: 1280px;
+	padding: 0 7.75%;
+  box-sizing: border-box;
+}
+
+#advanced_framework_innercontainer {
+	float:left;
+	width: 400px;
+}
+
+#gestured_authoring_container {
+	position: relative;
+	background-image: url("/images/sec-gw-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	height: 480px;
+	max-width: 1280px;
+	min-width: 1280px;
+	padding: 0 7.75%;
+  box-sizing: border-box;
+}
+
+#gestured_auth_img {
+	display:inline-block;
+	float:left;
+}
+
+#gestured_authoring_innercontainer {
+	float:right;
+	width: 400px;
+}
+/*
+#universal_hci_container {
+	position: relative;
+	background-image: url("/images/sec-hci-bg+img.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	height: 480px;
+	max-width: 1280px;
+}
+#universal_hci_innercontainer {
+	height: 200px;
+	width: 700px;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+*/
+#included_hardware_container {
+	position: relative;
+	background-image: url('/images/sec-ideum-bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	height: 480px;
+	max-width: 1280px;
+	min-width: 1280px;	
+	padding: 0 7.75%;
+  box-sizing: border-box;
+}
+
+#ideum_table {
+	display:inline-block;
+	float:right;
+}
+
+#included_hardware_innercontainer {
+	float:left;
+	width: 400px;
+}
+
+#software_support_container {
+	position: relative;
+	margin: 0 auto;
+	height: 350px;
+	max-width: 1280px;
+  width: 46%;
+}
+
+#table_sales_img {
+	display:inline-block;
+	float: left;
+}
+
+#software_support_innercontainer {
+	float: left;
+	padding-left: 2%;
+	text-align: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.footerlink {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	text-align: center;
+	min-width: 1280px;
+}
+
+#footer {
+	width: 900px;
+	margin: 0 auto;
+	text-decoration: none;
+}

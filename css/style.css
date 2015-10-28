@@ -13,7 +13,7 @@ header {
 	top: 0px;
 	background-color: white;
 	z-index: 1;
-	height: 130px;
+	height: 150px;
 	width: 100%;
 }
 
@@ -26,7 +26,7 @@ header {
 }
 
 #header-topcontainer {
-	height: 50px;
+	height: 25%;
 	margin: 0 auto;
 	width: 1280px;
 	left: 10%;
@@ -37,7 +37,7 @@ header {
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: #ebebeb;
-	height: 61px;
+	height: 75%;
 	margin: 0 auto;
 	width: 1280px;
 	left: 10%;
@@ -45,13 +45,16 @@ header {
 }
 
 #gestureworks_icon {
+	display: block;
+	margin: auto 0;
+	top: 0;
 	left: 10%;
+	bottom: 0;
 	float: left;
 }
 
-
 #headerright {
-	margin: auto;
+	margin: 0 auto;
 	height: 30px;
 	right: 10%;
 	float: right;
@@ -93,7 +96,7 @@ li {
 
 #homepg {
 	position: relative;
-	top: 116px;
+	top: 136px;
 }
 
 #gestureworks_core_container {

@@ -7,8 +7,8 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
-	<link href='https://fonts.googleapis.com/css?family=Lato:3900,700,400,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto:900,700,400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:900,700,400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,900,700,500,100' rel='stylesheet' type='text/css'>
 
 	<script src="js/jquery.js"></script>
 
@@ -60,6 +60,7 @@
 	<div id="homepg">
 
 		<section id="gestureworks_core_container">
+			<img id="ribbon" src="images/ribbon.png">
 			<div id="gestureworks_core_innercontainer" class="vertcenter">
 				<h1 class="headerone white">GestureWorks Core</h1>
 				<p class="paragraphone white">GestureWorks Core version 1.6 is a powerful authoring solution and touch point cluster analysis system for multitouch. GestureWorks Core includes a library of over 300 pre-built gestures and includes support for the world’s first markup language for multitouch.</p> 
@@ -67,7 +68,7 @@
 		</section>
 
 		<section id="multiple_languages_container" class="container-for-vcentering">
-			<image id="mult_lang_img" width="400px" height="400px" src="/images/sec-lang-img.png" class="vertcenter">
+			<image id="mult_lang_img" src="/images/sec-lang-img.png" class="vertcenter">
 			<div id="multiple_languages_innercontainer" class="vertcenter">
 				<h1 class="headerone white">Multiple Languages &amp; Frameworks</h1>
 				<p class="paragraphone white">GestureWorks Core for C++, .NET (C#), Java, and Python allows you to author in the language of your choice. GestureWorks Core provides standardized development and support for GML across multiple languages. We offer detailed tutorial examples showing how to use GestureWorks Core with Cinder, open Frameworks, Unity 3D, Java 2D, and Panda3D.</p> 
@@ -109,7 +110,7 @@
 		<section id="software_support_container">
 			<image id="table_sales_img" src="/images/sec-sales-img.png" class="vertcenter">
 			<div id="software_support_innercontainer" class="vertcenter">
-				<h1 class="headerone black">Software and Support</h1>
+				<h1 class="black">Software and Support</h1>
 				<p class="paragraphone black">Contact us to learn more about GestureWorks Core software and support packages.</br></br> 
 					phone: (505) 792-1110</br>
 					toll free: (855) 898-6824</br>

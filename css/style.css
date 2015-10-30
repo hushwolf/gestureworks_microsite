@@ -27,6 +27,12 @@ header {
 }
 
 #header-topcontainer {
+	border-bottom: 1px solid #dfdfdf;
+	height: 50px;
+	width: 100%;
+}
+#header-top-inner {
+	border-right: 1px solid #dfdfdf;
 	height: 50px;
 	margin: 0 auto;
 	max-width: 1280px;
@@ -39,13 +45,14 @@ header {
 }
 #header-topcontainer ul li {
 	height: 100%;
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #dfdfdf;
+}
+
+#header-topcontainer ul li:last-of-type {
+  border-right: 1px solid #ccc;
 }
 
 #header-maincontainer {
-	border-top-style: solid;
-	border-top-width: 1px;
-	border-top-color: #ebebeb;
 	height: 95px;
 	margin: 0 auto;
 	max-width:1280px;
@@ -59,8 +66,7 @@ header {
 
 #headerright {
 	margin: 0 auto;
-	height: 30px;
-	right: 10%;
+	height: 100%;
 	float: right;
 }
 
@@ -78,9 +84,33 @@ li {
 	float: left;
 }
 
+a.headerlink:hover, a.footerlink:hover {
+	opacity:0.7;
+}
+
+ul#main-navigation {
+	display: inline-block;
+	margin: 0;
+}
+
+ul#main-navigation li a  {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+ul#main-navigation li:last-of-type a {
+	padding-right: 0;
+}
+
 .headerlink {
-	padding-left: 10px;
-	padding-right: 10px;
+  display: block;
+	font-size: 13px;
+  font-weight: 300;
+	padding: 0 30px;
+}
+
+ul#main-navigation li .headerlink {
+	padding: 0 10px;
 }
 
 .headerone {
@@ -115,10 +145,10 @@ li {
 }
 
 #gestureworks_core_container {
+  box-sizing: border-box;
 	background-image: url("/images/sec-intro-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-  box-sizing: border-box;
 	height: 480px;
 	margin:0 auto;
 	max-width: 1280px;
@@ -137,11 +167,11 @@ li {
 }
 
 #multiple_languages_container {
+  box-sizing: border-box;
 	position: relative;
 	background-image: url("/images/sec-lang-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-  box-sizing: border-box;
 	height: 640px;
 	margin: 0 auto;
 	max-width: 1280px;
@@ -160,15 +190,15 @@ li {
 }
 
 #advanced_framework_container {
-	position: relative;
+  box-sizing: border-box;
 	background-image: url("/images/sec-system-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-  box-sizing: border-box;
-	margin: 0 auto;
 	height: 480px;
+	margin: 0 auto;
 	max-width: 1280px;
 	padding: 0 7.75%;
+	position: relative;
   width: 100%;
 }
 
@@ -181,13 +211,13 @@ li {
 }
 
 #gestured_authoring_container {
+  box-sizing: border-box;
 	position: relative;
 	background-image: url("/images/sec-gw-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-  box-sizing: border-box;
-	margin: 0 auto;
 	height: 480px;
+	margin: 0 auto;
 	max-width: 1280px;
 	padding: 0 7.75%;
 	width: 100%;
@@ -196,40 +226,47 @@ li {
 #gestured_auth_img {
 	display: inline-block;
 	float: left;
+	position: absolute;
+		left: 16px;
 }
 
 #gestured_authoring_innercontainer {
 	float: right;
 	width: 40%;
 }
-/*
+
 #universal_hci_container {
+  box-sizing: border-box;
 	position: relative;
-	background-image: url("/images/sec-hci-bg+img.png");
+	background-image: url("/images/sec-hci-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	height: 512px;
 	margin: 0 auto;
-	height: 480px;
 	max-width: 1280px;
+	padding: 0 7.75%;
+	width: 100%;
 }
 #universal_hci_innercontainer {
-	height: 200px;
-	width: 700px;
+	height:70%;
 	margin: auto;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	width: 72%;
 }
-*/
+
+#hci-faux-interior p {
+  margin: 0 auto;
+  text-align: center;
+	width: 80%;
+}
+
 #included_hardware_container {
 	position: relative;
 	background-image: url('/images/sec-ideum-bg.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
   box-sizing: border-box;
-	margin: 0 auto;
 	height: 480px;
+	margin: 0 auto;
 	max-width: 1280px;
 	padding: 0 7.75%;
 	width: 100%;
@@ -246,7 +283,7 @@ li {
 }
 
 #software_support_container {
-	height: 350px;
+	height: 360px;
 	margin: 0 auto;
 	max-width: 1280px;
 	position: relative;
@@ -272,11 +309,7 @@ li {
 }
 #software_support_innercontainer p {
 	color: #777f88;
-}
-
-.footerlink {
-	padding-left: 10px;
-	padding-right: 10px;
+	width: 90%;
 }
 
 footer {

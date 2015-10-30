@@ -18,42 +18,55 @@
 	<header id="header">
 
 		<div id="header-topcontainer">
-			<ul>
-				<li><div id="gestureworks_corecontainer">
-					<a class="headerlink" href='http://gestureworks.com/core/' target="_blank">GESTUREWORKS CORE</a>
-				</div></li>
-				<li><div id="gameplaycontainer"> 
-					<a class="headerlink" href='http://gameplay3.gestureworks.com/' target="_blank">GAMEPLAY</a>
-				</div></li>
-				<li><div id="open_exhibitscontainer"> 
-					<a class="headerlink" href='http://openexhibits.org/' target="_blank">OPEN EXHIBITS</a>
-				</div></li>
-			</ul>
-		</div>
+
+			<div id="header-top-inner">
+
+				<ul>
+					<li>
+						<a class="headerlink vertcenter" href='http://gestureworks.com/core/' target="_blank">GESTUREWORKS CORE</a>
+					</li>
+					<li>
+						<a class="headerlink vertcenter" href='http://gameplay3.gestureworks.com/' target="_blank">GAMEPLAY</a>
+					</li>
+					<li>
+						<a class="headerlink vertcenter" href='http://openexhibits.org/' target="_blank">OPEN EXHIBITS</a>
+					</li>
+				</ul>
+
+			</div><!-- /#header-top-inner -->
+
+		</div><!-- /#header-topcontainer -->
 
 		<div id="header-maincontainer">
+
 			<div id="gestureworks_icon">
+
 				<a href="http://gestureworks.com/core" target="_blank">
 					<img src="/images/logo-gw-core.png">
 				</a>
-			</div>
+
+			</div><!-- /#gestureworks_icon -->
+
 			<div id="headerright">
-				<ul>
-					<li><div id="blogcontainer">
+
+				<ul id="main-navigation" class="vertcenter">
+					<li>
 						<a class="headerlink" href="http://gestureworks-hci.tumblr.com/" target="_blank">Blog</a>
-					</div></li>
-					<li><div id="creative_servicescontainer">
+					</li>
+					<li>
 						<a class="headerlink" href="http://gestureworks.com/creative-services" target="_blank">Creative Services</a>
-					</div></li>
-					<li><div id="wikicontainer">
+					</li>
+					<li>
 						<a class="headerlink" href="http://wiki.gestureworks.com/doku.php" target="_blank">Wiki</a>
-					</div></li>
-					<li><div id="aboutcontainer">
+					</li>
+					<li>
 						<a class="headerlink" href="http://gestureworks.com/about" target="_blank">About</a>
-					</div></li>
+					</li>
 				</ul>
-			</div>
-		</div>
+
+			</div><!-- /#headerright -->
+
+		</div><!-- /#header-maincontainer -->
 
 	</header>
 
@@ -67,7 +80,7 @@
 			</div>
 		</section>
 
-		<section id="multiple_languages_container" class="container-for-vcentering">
+		<section id="multiple_languages_container">
 			<image id="mult_lang_img" src="/images/sec-lang-img.png" class="vertcenter">
 			<div id="multiple_languages_innercontainer" class="vertcenter">
 				<h1 class="headerone white">Multiple Languages &amp; Frameworks</h1>
@@ -83,21 +96,21 @@
 		</section>
 
 		<section id="gestured_authoring_container">
-			<image id="gestured_auth_img" width="400px" height="400px" src="/images/sec-auth-img.png" class="vertcenter">
+			<image id="gestured_auth_img" src="/images/sec-auth-img.png" class="vertcenter">
 			<div id="gestured_authoring_innercontainer" class="vertcenter">
 				<h1 class="headerone black">Gesture-Based Authoring</h1>
 				<p class="paragraphone black">GestureWorks Core comes complete with definitions for fully editable and extensible pre-built gestures and the capacity to develop virtually any number of gestures. GestureWorks Core offers support for the Gesture Markup Language (GML), the world’s first markup language for HCI. Support for physical properties like inertia filters, noise filters, and others are built in.</p>	
 			</div>
 		</section>
 
-		<!--
-		 For later use
 		<section id="universal_hci_container">
 			<div id="universal_hci_innercontainer">
-				<h1 class="headerone white">Universal HCI Engine Coming Soon!</h1>
-				<p class="paragraphone white">GestureWorks Core has been developed as a universal HCI engine. Along with touch screens and motion-recognition devices, future plans for GestureWorks Core include the use of accelerometers, wearables, eye-tracking, and other HCI devices.</p> 
+				<div id="hci-faux-interior" class="vertcenter">
+					<h1 class="headerone white">Universal HCI Engine Coming Soon!</h1>
+					<p class="paragraphone white">GestureWorks Core has been developed as a universal HCI engine. Along with touch screens and motion-recognition devices, future plans for GestureWorks Core include the use of accelerometers, wearables, eye-tracking, and other HCI devices.</p> 
+				</div>
 			</div>
-		</section>-->
+		</section>
 
 		<section id="included_hardware_container">
 			<image id="ideum_table" width="400px" height="400px" src="/images/sec-ideum-img.png" class="vertcenter">
@@ -115,7 +128,7 @@
 					phone: (505) 792-1110</br>
 					toll free: (855) 898-6824</br>
 					fax: (505) 792-1111</br>
-					email: <a href="mailto:sales@ideum.com?subject=inquiry from Gestureworks microsite">sales@ideum.com</a>
+					email: <a class="footerlink" href="mailto:sales@ideum.com?subject=inquiry from Gestureworks microsite">sales@ideum.com</a>
 				</p>
 			</div>
 		</section>

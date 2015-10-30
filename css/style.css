@@ -4,6 +4,8 @@ html, body {
 	height: 100%;
 	line-height: 1.6em;
 	margin: 0;
+	position: absolute;
+		top: 0;
 	width: 100%;
 }
 
@@ -49,11 +51,11 @@ header {
 }
 
 #header-topcontainer ul li:last-of-type {
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #dfdfdf;
 }
 
 #header-maincontainer {
-	height: 95px;
+	height: 100px;
 	margin: 0 auto;
 	max-width:1280px;
 	width: 100%;
@@ -61,7 +63,6 @@ header {
 
 #gestureworks_icon {
 	float: left;
-	margin: 17px 0;
 }
 
 #headerright {
@@ -89,7 +90,7 @@ a.headerlink:hover, a.footerlink:hover {
 }
 
 ul#main-navigation {
-	display: inline-block;
+	height:25px;
 	margin: 0;
 }
 
@@ -138,10 +139,9 @@ ul#main-navigation li .headerlink {
 	color: #777f88;
 }
 
-
 #homepg {
 	position: relative;
-	top: 136px;
+	top: 139px;
 }
 
 #gestureworks_core_container {
@@ -175,8 +175,8 @@ ul#main-navigation li .headerlink {
 	height: 640px;
 	margin: 0 auto;
 	max-width: 1280px;
-	min-width: 1280px;
 	padding: 0 7.75%;
+	width:100%;
 }
 
 #mult_lang_img {
@@ -249,8 +249,8 @@ ul#main-navigation li .headerlink {
 }
 #universal_hci_innercontainer {
 	height:70%;
-	margin: auto;
-	width: 72%;
+	margin: -15px auto 0;
+	width: 73%;
 }
 
 #hci-faux-interior p {
@@ -272,7 +272,7 @@ ul#main-navigation li .headerlink {
 	width: 100%;
 }
 
-#ideum_table {
+#ideum_table_img {
 	display: inline-block;
 	float: right;
 }
@@ -306,22 +306,321 @@ ul#main-navigation li .headerlink {
 #software_support_innercontainer h1 {
 	font-size: 24px;
 	font-weight:200;
+	margin-top: 0;
 }
 #software_support_innercontainer p {
 	color: #777f88;
 	width: 90%;
 }
 
+#software_support_innercontainer p:last-of-type {
+	margin: 2em 0 0 0;
+}
+
 footer {
 	background-color: black;
 	height: 50px;
-	min-width: 1280px;
+	position: relative;
+    top: 142px;
 	text-align: center;
 	width: 100%;
 }
 
 #footer {
-	margin: 0 auto;
+	display: inline-block;
+  margin: 0 auto;
+  height: 25px;
+  padding: 0;
 	text-decoration: none;
-	width: 900px;
+}
+
+ul#footer li a {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight:400;
+	padding: 0 10px;
+}
+
+ul#footer li a:hover {
+	opacity: 0.7;
+}
+
+/* #####################################
+	      		RESPONSIVE STLES
+###################################### */
+
+@media (max-width: 330px) { /* smalllllll phone */
+	
+	ul#main-navigation li a {
+    font-size: 12px;
+  }
+  .headerlink {
+    padding: 0 15px;
+	}
+	
+}
+
+@media (max-width: 550px) { /* phone */
+	#homepg {
+		margin: 0 auto;
+		max-width: 88%;
+    top: 189px;
+	}
+	#gestureworks_core_container img#ribbon {
+    left: -14px;
+    height: 100px;
+}
+	#mobile-navigation {
+    background-color: #ebebeb;
+    border-bottom: 1px solid #dfdfdf;
+    height: 50px;
+		position: fixed;
+    	top: 152px;
+    text-align: center;
+    z-index: 1;
+    width:100%;
+	}
+	#mobile-navigation #main-navigation {
+    display: inline-block;
+    padding: 0;
+	}
+	ul#main-navigation li a {
+    font-size: 14px;
+  }
+	#header-top-inner {
+		text-align: center;
+	}
+	#header-topcontainer ul {
+    display: inline-block;
+  }
+  ul#main-navigation {
+		display: inline-block;
+	}
+	
+	#gestureworks_icon {
+		float: none;
+		margin: 0 auto;
+		max-height: 94%;
+		max-width: 94%;
+		width: auto;
+	}
+	#gestureworks_icon img {
+		max-height: 96%;
+		max-width: 96%;
+	}
+	section {
+		max-width: 100%;
+	}
+
+	.tablet {
+		display: none !important;
+	}
+	.tablet-n-desktop  {
+		display: none !important;
+	}
+	.desktop {
+		display: none !important;
+	}
+	.phone {
+		display: block !important;
+	}
+	
+
+}
+
+
+@media (min-width: 551px) and (max-width: 750px) { /* large-phone small tablet */
+
+	#homepg {
+		margin:0 auto;
+		max-width: 88%;
+	}
+
+	#header-maincontainer {
+		margin: auto;
+		width: 88%;
+	}	
+	
+	#gestureworks_icon {
+		max-width: 40%;
+	}
+
+	#gestureworks_icon img {
+		max-width: 80%;
+	}
+
+	ul#main-navigation {
+		padding-left: 0;
+	}
+
+	ul#main-navigation li a {
+    font-size: 13px;
+  }
+
+  #gestureworks_icon {
+		float: left;
+		margin: 0;
+		max-height: 94%;
+		max-width: 38%;
+		width: auto;
+	}
+	#gestureworks_icon img {
+		max-height: 96%;
+		max-width: 96%;
+	}
+
+	.desktop {
+		display: none !important;
+	}
+	.phone {
+		display: none !important;
+	}
+	.tablet {
+		display: block !important;
+	}
+	.tablet-n-desktop  {
+		display: block !important;
+	}
+
+}
+
+@media (min-width: 750px) and (max-width: 850px) { /* large tablet + small desktop */
+
+	#homepg {
+		margin:0 auto;
+		max-width: 720px;
+	}
+	#gestureworks_icon {
+		float: left;
+		margin: 0;
+		max-height: 94%;
+		max-width: 38%;
+		width: auto;
+	}
+	#gestureworks_icon img {
+		max-height: 96%;
+		max-width: 96%;
+	}
+
+}
+
+@media (min-width: 750px) and (max-width: 1280px) { /* large tablet + small desktop */
+	#homepg {
+		margin:0 auto;
+		max-width: 720px;
+	}
+	#header-maincontainer {
+		margin: auto;
+		width: 88%;
+	}	
+	#header-top-inner {
+		text-align: center;
+	}
+	
+	#gestureworks_core_container {
+		background-image: url("/mobile_images/720-sec-intro-bg.jpg");
+		height: 420px;
+	}
+	#gestureworks_core_innercontainer {
+    width: 50%;
+	}
+	#gestureworks_core_innercontainer h1 {
+		width: 80%;
+	}
+	#multiple_languages_container {
+		background-image: url("/mobile_images/720-sec-language-bg.jpg");
+		height: 460px;
+	}
+	#multiple_languages_innercontainer {
+    width: 50%;
+	}
+	#multiple_languages_innercontainer p {
+		width: 94%;
+	}
+	#mult_lang_img {
+    display: none;
+	}
+	#advanced_framework_container {
+    background-image: url("/mobile_images/720-sec-windows-bg.jpg");
+    height: 420px;
+  }
+  #advanced_framework_innercontainer {
+    width: 64%;
+	}
+	#gestured_auth_img {
+    left: 30px;
+		max-width: 45%;
+	}
+	#gestured_authoring_innercontainer {
+    width: 45%;
+	}
+	#universal_hci_container {
+		background-image: url("/mobile_images/720-sec-hci-bg.jpg");
+    height: 420px;
+	}
+	#hci-faux-interior h1 {
+		text-align: center;
+	}
+	#hci-faux-interior p {
+    width: 100%;
+	}
+	#included_hardware_container {
+		background-image: url('/mobile_images/720-sec-ideum-bg.jpg');
+		height: 440px;
+  }
+  #ideum_table_img {
+    display: none;
+	}
+	#included_hardware_innercontainer {
+    width: 53%;
+	}
+	#included_hardware_innercontainer h1 {
+		width: 94%;
+	}
+	#software_support_container {
+    width: 90%;
+  }
+  #software_support_innercontainer p {
+    width: 100%;
+	}
+	.headerone {
+    font-size: 34px;
+    letter-spacing: +1px;
+    line-height: 1.5em;
+  }
+
+  .tablet {
+		display: block !important;
+	}
+	.phone {
+		display: none !important;
+	}
+	.desktop {
+		display: none !important;
+	}
+	.tablet-n-desktop  {
+		display: block !important;
+	}
+
+}
+
+@media (min-width: 1280px) { /* large desktop */
+
+	#header-top-inner {
+		text-align: center;
+	}
+	.tablet {
+		display: none !important;
+	}
+	.phone {
+		display: none !important;
+	}
+	.desktop {
+		display: block !important;
+	}
+	.tablet-n-desktop  {
+		display: block !important;
+	}
+
 }

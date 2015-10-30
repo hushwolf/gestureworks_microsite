@@ -22,8 +22,8 @@
 			<div id="header-top-inner">
 
 				<ul>
-					<li>
-						<a class="headerlink vertcenter" href='http://gestureworks.com/core/' target="_blank">GESTUREWORKS CORE</a>
+					<li class="tablet-n-desktop">
+						<a class="headerlink vertcenter" href='http://gestureworks.com/' target="_blank">GESTUREWORKS CORE</a>
 					</li>
 					<li>
 						<a class="headerlink vertcenter" href='http://gameplay3.gestureworks.com/' target="_blank">GAMEPLAY</a>
@@ -39,7 +39,7 @@
 
 		<div id="header-maincontainer">
 
-			<div id="gestureworks_icon">
+			<div id="gestureworks_icon" class="vertcenter">
 
 				<a href="http://gestureworks.com/core" target="_blank">
 					<img src="/images/logo-gw-core.png">
@@ -47,7 +47,7 @@
 
 			</div><!-- /#gestureworks_icon -->
 
-			<div id="headerright">
+			<div id="headerright" class="tablet desktop">
 
 				<ul id="main-navigation" class="vertcenter">
 					<li>
@@ -70,13 +70,32 @@
 
 	</header>
 
+	<section id="mobile-navigation" class="phone">
+
+		<ul id="main-navigation" class="vertcenter">
+			<li>
+				<a class="headerlink" href="http://gestureworks-hci.tumblr.com/" target="_blank">Blog</a>
+			</li>
+			<li>
+				<a class="headerlink" href="http://gestureworks.com/creative-services" target="_blank">Creative Services</a>
+			</li>
+			<li>
+				<a class="headerlink" href="http://wiki.gestureworks.com/doku.php" target="_blank">Wiki</a>
+			</li>
+			<li>
+				<a class="headerlink" href="http://gestureworks.com/about" target="_blank">About</a>
+			</li>
+		</ul>
+
+	</section>
+
 	<div id="homepg">
 
 		<section id="gestureworks_core_container">
 			<img id="ribbon" src="images/ribbon.png">
 			<div id="gestureworks_core_innercontainer" class="vertcenter">
 				<h1 class="headerone white">GestureWorks Core</h1>
-				<p class="paragraphone white">GestureWorks Core version 1.6 is a powerful authoring solution and touch point cluster analysis system for multitouch. GestureWorks Core includes a library of over 300 pre-built gestures and includes support for the world’s first markup language for multitouch.</p> 
+				<p class="paragraphone white">GestureWorks Core version 1.6 is a powerful authoring solution and touch point cluster analysis system for multitouch. GestureWorks Core includes a library of over 300 pre-built gestures and includes support for the world’s first markup language for multitouch.</p>
 			</div>
 		</section>
 
@@ -84,7 +103,7 @@
 			<image id="mult_lang_img" src="/images/sec-lang-img.png" class="vertcenter">
 			<div id="multiple_languages_innercontainer" class="vertcenter">
 				<h1 class="headerone white">Multiple Languages &amp; Frameworks</h1>
-				<p class="paragraphone white">GestureWorks Core for C++, .NET (C#), Java, and Python allows you to author in the language of your choice. GestureWorks Core provides standardized development and support for GML across multiple languages. We offer detailed tutorial examples showing how to use GestureWorks Core with Cinder, open Frameworks, Unity 3D, Java 2D, and Panda3D.</p> 
+				<p class="paragraphone white">GestureWorks Core for C++, .NET (C#), Java, and Python allows you to author in the language of your choice. GestureWorks Core provides standardized development and support for GML across multiple languages. We offer detailed tutorial examples showing how to use GestureWorks Core with Cinder, open Frameworks, Unity 3D, Java 2D, and Panda3D.</p>
 			</div>
 		</section>
 
@@ -96,10 +115,10 @@
 		</section>
 
 		<section id="gestured_authoring_container">
-			<image id="gestured_auth_img" src="/images/sec-auth-img.png" class="vertcenter">
+			<img id="gestured_auth_img" src="/images/sec-auth-img.png" class="vertcenter">
 			<div id="gestured_authoring_innercontainer" class="vertcenter">
 				<h1 class="headerone black">Gesture-Based Authoring</h1>
-				<p class="paragraphone black">GestureWorks Core comes complete with definitions for fully editable and extensible pre-built gestures and the capacity to develop virtually any number of gestures. GestureWorks Core offers support for the Gesture Markup Language (GML), the world’s first markup language for HCI. Support for physical properties like inertia filters, noise filters, and others are built in.</p>	
+				<p class="paragraphone black">GestureWorks Core comes complete with definitions for fully editable and extensible pre-built gestures and the capacity to develop virtually any number of gestures. GestureWorks Core offers support for the Gesture Markup Language (GML), the world’s first markup language for HCI. Support for physical properties like inertia filters, noise filters, and others are built in.</p>
 			</div>
 		</section>
 
@@ -107,13 +126,13 @@
 			<div id="universal_hci_innercontainer">
 				<div id="hci-faux-interior" class="vertcenter">
 					<h1 class="headerone white">Universal HCI Engine Coming Soon!</h1>
-					<p class="paragraphone white">GestureWorks Core has been developed as a universal HCI engine. Along with touch screens and motion-recognition devices, future plans for GestureWorks Core include the use of accelerometers, wearables, eye-tracking, and other HCI devices.</p> 
+					<p class="paragraphone white">GestureWorks Core has been developed as a universal HCI engine. Along with touch screens and motion-recognition devices, future plans for GestureWorks Core include the use of accelerometers, wearables, eye-tracking, and other HCI devices.</p>
 				</div>
 			</div>
 		</section>
 
 		<section id="included_hardware_container">
-			<image id="ideum_table" width="400px" height="400px" src="/images/sec-ideum-img.png" class="vertcenter">
+			<img id="ideum_table_img" width="400px" height="400px" src="/images/sec-ideum-img.png" class="vertcenter">
 			<div id="included_hardware_innercontainer" class="vertcenter">
 				<h1 class="headerone black">Included with Ideum Hardware</h1>
 				<p class="paragraphone black">A lifetime license for GestureWorks Core is included with the purchase of Ideum multitouch tables and walls. Ideum is a leader in high-end integrated touch products. Fortune 500 companies, top universities, research labs, museums, and government agencies have selected Ideum products for their exceptional performance and quality.</p>
@@ -121,21 +140,27 @@
 		</section>
 
 		<section id="software_support_container">
-			<image id="table_sales_img" src="/images/sec-sales-img.png" class="vertcenter">
+			<img id="table_sales_img" src="/mobile_images/320-sec-sales-img.png" class="vertcenter phone">
+			<img id="table_sales_img" src="/mobile_images/720-sec-sales-img.png" class="vertcenter tablet">
+			<img id="table_sales_img" src="/images/sec-sales-img.png" class="vertcenter desktop">
 			<div id="software_support_innercontainer" class="vertcenter">
 				<h1 class="black">Software and Support</h1>
-				<p class="paragraphone black">Contact us to learn more about GestureWorks Core software and support packages.</br></br> 
+				<p class="paragraphone black">Contact us to learn more about GestureWorks Core software and support packages.</p> 
+				<p class="paragraphone black">
 					phone: (505) 792-1110</br>
 					toll free: (855) 898-6824</br>
 					fax: (505) 792-1111</br>
 					email: <a class="footerlink" href="mailto:sales@ideum.com?subject=inquiry from Gestureworks microsite">sales@ideum.com</a>
 				</p>
+				</p>
 			</div>
 		</section>
 
-		<footer>
+	</div><!-- /#homepg -->
 
-			<ul id="footer">
+	<footer>
+
+			<ul id="footer" class="vertcenter">
 				<li class="footerlink white"><a href='http://gestureworks.com/core/' target="_blank">GESTUREWORKS</a></li>
 				<li class="footerlink white"><a href='http://gameplay3.gestureworks.com/' target="_blank">GAMEPLAY</a></li>
 				<li class="footerlink white"><a href='http://openexhibits.org/' target="_blank">OPEN EXHIBITS</a></li>
@@ -146,8 +171,6 @@
 			</ul>
 
 		</footer>
-
-	</div><!-- /#homepg -->
 
 </body>
 </html>

@@ -383,7 +383,6 @@ ul#footer li a:hover {
 	}
 	#header-top-inner {
     height: 30px;
-    width:720px;
   }
 
 	ul#main-navigation li:first-of-type a {
@@ -645,6 +644,7 @@ ul#footer li a:hover {
 	}	
 	#header-top-inner {
 		text-align: center;
+		max-width: 720px;
 	}
 	
 	#gestureworks_core_container {

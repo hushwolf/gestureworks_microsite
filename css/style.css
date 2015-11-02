@@ -383,6 +383,7 @@ ul#footer li a:hover {
 	}
 	#header-top-inner {
     height: 30px;
+    width:720px;
   }
 
 	ul#main-navigation li:first-of-type a {

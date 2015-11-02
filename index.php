@@ -19,7 +19,6 @@
 	<meta property="og:site_name" content="GestureWorks - Multitouch software framework: build gesture-driven apps"/>
 	<meta property="og:description" content="GestureWorks is an advanced multitouch software development kit for C++, .NET/C#, Java and Python. This advanced HCI authoring platform supports over 300 gestures and works with touch devices and motion recognition controllers."/>
 	<meta name="description" content="GestureWorks is an advanced multitouch software development kit for C++, .NET/C#, Java and Python. This advanced HCI authoring platform supports over 300 gestures and works with touch devices and motion recognition controllers."/>
-	<meta name="keywords" content="multitouch SDK, multitouch framework, multitouch authoring, touch authoring, multitouch software, C++, C#, .NET, Java, Python, Cinder, OpenFrameworks, Unity, Unity3D, Java2D, gesture authoring, HCI framework, HCI authoring, Leap motion, Leap SDK, motion gesture, 3D gesture, gesture processing, gesture markup, NUI, NUI applications, TUIO, Windows 7, Windows 8"/>
 
 	<!-- fav and apple-touch icons -->
 	<link rel="shortcut icon" href="http://gestureworks.com/favicon.ico"/>

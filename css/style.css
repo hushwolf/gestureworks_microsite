@@ -146,7 +146,7 @@ ul#main-navigation li .headerlink {
 
 #gestureworks_core_container {
   box-sizing: border-box;
-	background-image: url("/images/sec-intro-bg.png");
+	background-image: url("../images/sec-intro-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 480px;
@@ -169,7 +169,7 @@ ul#main-navigation li .headerlink {
 #multiple_languages_container {
   box-sizing: border-box;
 	position: relative;
-	background-image: url("/images/sec-lang-bg.png");
+	background-image: url("../images/sec-lang-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 640px;
@@ -191,7 +191,7 @@ ul#main-navigation li .headerlink {
 
 #advanced_framework_container {
   box-sizing: border-box;
-	background-image: url("/images/sec-system-bg.png");
+	background-image: url("../images/sec-system-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 480px;
@@ -213,7 +213,7 @@ ul#main-navigation li .headerlink {
 #gestured_authoring_container {
   box-sizing: border-box;
 	position: relative;
-	background-image: url("/images/sec-gw-bg.png");
+	background-image: url("../images/sec-gw-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 480px;
@@ -238,7 +238,7 @@ ul#main-navigation li .headerlink {
 #universal_hci_container {
   box-sizing: border-box;
 	position: relative;
-	background-image: url("/images/sec-hci-bg.jpg");
+	background-image: url("../images/sec-hci-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 512px;
@@ -261,7 +261,7 @@ ul#main-navigation li .headerlink {
 
 #included_hardware_container {
 	position: relative;
-	background-image: url('/images/sec-ideum-bg.png');
+	background-image: url('../images/sec-ideum-bg.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
   box-sizing: border-box;
@@ -291,14 +291,14 @@ ul#main-navigation li .headerlink {
 }
 
 #table_sales_img {
-	display: inline-block;
+	max-width: 48%;
 	float: left;
 }
 
 #software_support_innercontainer {
   box-sizing: border-box;
 	float: left;
-	padding-left: 2%;
+	padding-left: 5%;
 	text-align: left;
 	width: 50%;
 }
@@ -347,10 +347,10 @@ ul#footer li a:hover {
 }
 
 /* #####################################
-	      		RESPONSIVE STLES
+	      	RESPONSIVE STLES
 ###################################### */
 
-@media (max-width: 330px) { /* smalllllll phone */
+@media (max-width: 330px) { /* very small phone */
 	
 	ul#main-navigation li a {
     font-size: 12px;
@@ -358,25 +358,209 @@ ul#footer li a:hover {
   .headerlink {
     padding: 0 15px;
 	}
-	
+
+	ul#footer li a {
+    font-size: 10px;
+	}
 }
 
-@media (max-width: 550px) { /* phone */
+@media (max-width: 750px) { /* phone */
 	#homepg {
 		margin: 0 auto;
-		max-width: 88%;
-    top: 189px;
+		max-width: 290px;
+    top: 137px;
+	}
+	header {
+    height: 100px;
+  }
+  #header-maincontainer {
+    height: 72px;
+  }
+	#header-topcontainer {
+		border-bottom: 1px solid #dfdfdf;
+		height: 30px;
+		width: 100%;
+	}
+	#header-top-inner {
+    height: 30px;
+  }
+
+	ul#main-navigation li:first-of-type a {
+    padding-left: 0;
+	}
+
+	/* begin GESTUREWORKS CORE styles */
+	#gestureworks_core_container {
+		background-color: #4e4e4e;
+		background-image: url("../images/mobile/290-sec-intro-bg.png");
+		height: 680px;
 	}
 	#gestureworks_core_container img#ribbon {
-    left: -14px;
-    height: 100px;
+    left: -11px;
+    height: 80px;
+	}
+	#gestureworks_core_innercontainer  {
+		padding-top: 30px;
+		width: 90%;
+	}
+	#gestureworks_core_innercontainer.vertcenter {
+    display: initial !important;
+    top: -0px;
+	}
+	#gestureworks_core_innercontainer .headerone {
+		padding-top: 50px;
+		width: 90%;
+	}
+	#gestureworks_core_innercontainer p {
+		width: 96%;
+	}
+	#gestureworks_icon {
+		float: none;
+    margin: 0 auto;
+    width: 96%;
+	}
+	#gestureworks_icon img {
+    display: block;
+		margin: 0 auto;
+		max-height: 50px;
+		max-width: 90%;
+	}
+	/* end GESTUREWORKS CORE styles */
+
+	/* begin MULTIPLE LANGUAGES styles */
+	#multiple_languages_container {
+		background-image: url("../images/mobile/290-sec-language-bg.png");
+		height: 760px;
+		padding-top: 250px;
+	}
+	#multiple_languages_innercontainer {
+		width: 100%;
+	}
+	#multiple_languages_innercontainer.vertcenter {
+    display: initial !important;
+    top: 250px;
+	}
+	#multiple_languages_innercontainer p {
+    width: 96%;
+	}
+	/* end MULTIPLE LANGUAGES styles */
+
+	/* begin ADVANCED FRAMEWORK styles */
+	#advanced_framework_container{
+		background-image: url("../images/mobile/290-sec-windows-bg.png");
+		height: 747px;
+		padding-top: 240px;
+	}
+	#advanced_framework_innercontainer {
+		width: 100%;
+	}
+	#advanced_framework_innercontainer.vertcenter {
+    display: initial !important;
+    top: 240px;
+	}
+	#advanced_framework_innercontainer p {
+    width: 94%;
+	}
+	/* end ADVANCED FRAMEWORK styles */
+
+	/* begin GESTURE-BASED AUTHORING styles */
+	#gestured_authoring_container{
+		background-image: url("../images/mobile/290-sec-gestures-bg.png");
+		height: 655px;
+		padding-top: 210px;
+	}
+	#gestured_authoring_innercontainer {
+		width: 100%;
+	}
+	#gestured_authoring_innercontainer.vertcenter {
+    display: initial !important;
+    top: 210px;
+	}
+	#gestured_authoring_innercontainer p {
+    width: 94%;
+	}
+	/* end GESTURE-BASED AUTHORING styles */
+
+	/* begin UNIVERSAL HCI styles */
+	#universal_hci_container{
+		background-image: url("../images/mobile/290-sec-hci-bg.png");
+		height: 480px;
+		padding-top: 70px;
+	}
+	#universal_hci_innercontainer {
+		width: 100%;
+	}
+	#universal_hci_innercontainer.vertcenter {
+    display: initial !important;
+    top: 70px;
+	}
+	#universal_hci_innercontainer h1 {
+		text-align: center;;
+	}
+	#universal_hci_innercontainer p {
+    width: 95%;
+	}
+	/* end UNIVERSAL HCI styles */
+
+	/* begin INCLUDED HARDWARE styles */
+	#included_hardware_container {
+		background-image: url("../images/mobile/290-sec-ideum-bg.png");
+		height: 690px;
+		padding-top: 220px;
+	}
+	#included_hardware_innercontainer {
+		width: 100%;
+	}
+	#included_hardware_innercontainer.vertcenter {
+    display: initial !important;
+    top: 220px;
+	}
+	#included_hardware_innercontainer p {
+    width: 95%;
+	}
+	/* end INCLUDED HARDWARE styles */
+
+	/* begin SOFTWARE SUPPORT styles */
+	#software_support_container {
+		background-image: url('../images/mobile/290-bottom-border-img.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+		box-sizing: border-box;
+		height: 580px;
+		padding: 20px 7.75% 0;
+    width: 100%;
+	}
+	#software_support_innercontainer {
+		float:none;
+		top: 0;
+		width: 100%;
+	}
+	#software_support_innercontainer.vertcenter {
+    display: initial !important;
+	}
+	#software_support_innercontainer p {
+    width: 96%;
+	}
+	#software_support_container #table_sales_img {
+    float: none;
+    margin: 0 auto;
+    max-width: 94%;
+    max-width: 110%;
+    position: relative;
+    	left: -2%;
 }
+	/* end SOFTWARE SUPPORT styles */
+
+	.headerone {
+    font-size: 32px;
+   }
+
 	#mobile-navigation {
     background-color: #ebebeb;
     border-bottom: 1px solid #dfdfdf;
     height: 50px;
 		position: fixed;
-    	top: 152px;
+    	top: 100px;
     text-align: center;
     z-index: 1;
     width:100%;
@@ -398,94 +582,38 @@ ul#footer li a:hover {
 		display: inline-block;
 	}
 	
-	#gestureworks_icon {
-		float: none;
-		margin: 0 auto;
-		max-height: 94%;
-		max-width: 94%;
-		width: auto;
-	}
-	#gestureworks_icon img {
-		max-height: 96%;
-		max-width: 96%;
-	}
 	section {
 		max-width: 100%;
 	}
 
-	.tablet {
-		display: none !important;
+	footer {
+		height: 60px;
+		padding: 8px 0;
 	}
-	.tablet-n-desktop  {
-		display: none !important;
-	}
-	.desktop {
-		display: none !important;
-	}
-	.phone {
-		display: block !important;
-	}
-	
-
-}
-
-
-@media (min-width: 551px) and (max-width: 750px) { /* large-phone small tablet */
-
-	#homepg {
-		margin:0 auto;
-		max-width: 88%;
-	}
-
-	#header-maincontainer {
-		margin: auto;
-		width: 88%;
-	}	
-	
-	#gestureworks_icon {
-		max-width: 40%;
-	}
-
-	#gestureworks_icon img {
-		max-width: 80%;
-	}
-
-	ul#main-navigation {
-		padding-left: 0;
-	}
-
-	ul#main-navigation li a {
-    font-size: 13px;
+	#footer {
+    height: auto;
   }
-
-  #gestureworks_icon {
-		float: left;
-		margin: 0;
-		max-height: 94%;
-		max-width: 38%;
-		width: auto;
-	}
-	#gestureworks_icon img {
-		max-height: 96%;
-		max-width: 96%;
+	ul#footer li a {
+    font-size: 10px;
 	}
 
+	.tablet {
+		display: none !important;
+	}
+	.tablet-n-desktop  {
+		display: none !important;
+	}
 	.desktop {
 		display: none !important;
 	}
 	.phone {
-		display: none !important;
-	}
-	.tablet {
-		display: block !important;
-	}
-	.tablet-n-desktop  {
 		display: block !important;
 	}
 
 }
 
-@media (min-width: 750px) and (max-width: 850px) { /* large tablet + small desktop */
+
+@media (min-width: 750px) and (max-width: 850px) { /* interim masthead fix for large tablet */
 
 	#homepg {
 		margin:0 auto;
@@ -512,14 +640,14 @@ ul#footer li a:hover {
 	}
 	#header-maincontainer {
 		margin: auto;
-		width: 88%;
+		width: 720px;
 	}	
 	#header-top-inner {
 		text-align: center;
 	}
 	
 	#gestureworks_core_container {
-		background-image: url("/mobile_images/720-sec-intro-bg.jpg");
+		background-image: url("../images/mobile/720-sec-intro-bg.jpg");
 		height: 420px;
 	}
 	#gestureworks_core_innercontainer {
@@ -529,11 +657,11 @@ ul#footer li a:hover {
 		width: 80%;
 	}
 	#multiple_languages_container {
-		background-image: url("/mobile_images/720-sec-language-bg.jpg");
+		background-image: url("../images/mobile/720-sec-language-bg.jpg");
 		height: 460px;
 	}
 	#multiple_languages_innercontainer {
-    width: 50%;
+    width: 52%;
 	}
 	#multiple_languages_innercontainer p {
 		width: 94%;
@@ -542,7 +670,7 @@ ul#footer li a:hover {
     display: none;
 	}
 	#advanced_framework_container {
-    background-image: url("/mobile_images/720-sec-windows-bg.jpg");
+    background-image: url("../images/mobile/720-sec-windows-bg.jpg");
     height: 420px;
   }
   #advanced_framework_innercontainer {
@@ -556,7 +684,7 @@ ul#footer li a:hover {
     width: 45%;
 	}
 	#universal_hci_container {
-		background-image: url("/mobile_images/720-sec-hci-bg.jpg");
+		background-image: url("../images/mobile/720-sec-hci-bg.jpg");
     height: 420px;
 	}
 	#hci-faux-interior h1 {
@@ -566,7 +694,7 @@ ul#footer li a:hover {
     width: 100%;
 	}
 	#included_hardware_container {
-		background-image: url('/mobile_images/720-sec-ideum-bg.jpg');
+		background-image: url('../images/mobile/720-sec-ideum-bg.png');
 		height: 440px;
   }
   #ideum_table_img {
@@ -579,11 +707,16 @@ ul#footer li a:hover {
 		width: 94%;
 	}
 	#software_support_container {
+		background-image: url('../images/mobile/720-bottom-border-img.png');
+		background-position: top center;
+		background-repeat: no-repeat;
+    padding-top: 0;
     width: 90%;
   }
   #software_support_innercontainer p {
     width: 100%;
 	}
+
 	.headerone {
     font-size: 34px;
     letter-spacing: +1px;
@@ -623,4 +756,10 @@ ul#footer li a:hover {
 		display: block !important;
 	}
 
+	#software_support_container {
+		background-image: url('../images/1280-bottom-border-img.jpg');
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
 }

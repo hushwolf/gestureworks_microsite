@@ -117,7 +117,7 @@
 			<img id="ribbon" src="images/ribbon.png">
 			<div id="gestureworks_core_innercontainer" class="vertcenter">
 				<h1 class="headerone white">GestureWorks Core</h1>
-				<p class="paragraphone white">GestureWorks Core version 1.6 is a powerful authoring solution and touch point cluster analysis system for multitouch. GestureWorks Core includes a library of over 300 pre-built gestures and includes support for the world’s first markup language for multitouch.</p>
+				<p class="paragraphone white">GestureWorks Core version 1.5 is a powerful authoring solution and touch point cluster analysis system for multitouch. GestureWorks Core includes a library of over 300 pre-built gestures and includes support for the world’s first markup language for multitouch.</p>
 			</div>
 		</section>
 

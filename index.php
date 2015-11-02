@@ -76,7 +76,7 @@
 						<a class="headerlink" href="http://gestureworks-hci.tumblr.com/" target="_blank">Blog</a>
 					</li>
 					<li>
-						<a class="headerlink" href="http://gestureworks.com/creative-services" target="_blank">Creative Services</a>
+						<a class="headerlink" href="http://ideum.com/creative-services" target="_blank">Creative Services</a>
 					</li>
 					<li>
 						<a class="headerlink" href="http://wiki.gestureworks.com/doku.php" target="_blank">Wiki</a>
@@ -99,7 +99,7 @@
 				<a class="headerlink" href="http://gestureworks-hci.tumblr.com/" target="_blank">Blog</a>
 			</li>
 			<li>
-				<a class="headerlink" href="http://gestureworks.com/creative-services" target="_blank">Creative Services</a>
+				<a class="headerlink" href="http://ideum.com/creative-services" target="_blank">Creative Services</a>
 			</li>
 			<li>
 				<a class="headerlink" href="http://wiki.gestureworks.com/doku.php" target="_blank">Wiki</a>
@@ -186,7 +186,7 @@
 			<li class="footerlink white"><a href='http://gameplay3.gestureworks.com/' target="_blank">GAMEPLAY</a></li>
 			<li class="footerlink white"><a href='http://openexhibits.org/' target="_blank">OPEN EXHIBITS</a></li>
 			<li class="footerlink white"><a href="http://gestureworks-hci.tumblr.com/" target="_blank">BLOG</a></li>
-			<li class="footerlink white"><a href="http://gestureworks.com/creative-services" target="_blank">CREATIVE SERVICES</a></li>
+			<li class="footerlink white"><a href="http://ideum.com/creative-services" target="_blank">CREATIVE SERVICES</a></li>
 			<li class="footerlink white"><a href="http://wiki.gestureworks.com/" target="_blank">WIKI</a></li>
 			<!-- <li class="footerlink white"><a href="http://gestureworks.com/about" target="_blank">ABOUT</a></li> -->
 		</ul>

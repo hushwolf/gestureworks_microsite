@@ -13,12 +13,12 @@
 
 	<!-- social sharing data -->
 	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="GestureWorks: Powering the Next Wave of Interactive Experiences"/>
+	<meta property="og:title" content="GestureWorks Core: Powering the Next Wave of Interactive Experiences"/>
 	<meta property="og:url" content="http://gestureworks.com"/>
 	<meta property="og:image" content="http://gestureworks.com/images/share/gestureworks-550x550.jpg"/>
 	<meta property="og:site_name" content="GestureWorks - Multitouch software framework: build gesture-driven apps"/>
-	<meta property="og:description" content="GestureWorks is an advanced multitouch software development kit for C++, .NET/C#, Java and Python. This advanced HCI authoring platform supports over 300 gestures and works with touch devices and motion recognition controllers."/>
-	<meta name="description" content="GestureWorks is an advanced multitouch software development kit for C++, .NET/C#, Java and Python. This advanced HCI authoring platform supports over 300 gestures and works with touch devices and motion recognition controllers."/>
+	<meta property="og:description" content="GestureWorks Core version 1.5 is a powerful authoring solution and touch point cluster analysis system for multitouch. GestureWorks Core for C++, .NET (C#), Java, and Python allows you to author in the language of your choice."/>
+	<meta name="description" content="GestureWorks Core version 1.5 is a powerful authoring solution and touch point cluster analysis system for multitouch. GestureWorks Core for C++, .NET (C#), Java, and Python allows you to author in the language of your choice."/>
 
 	<!-- fav and apple-touch icons -->
 	<link rel="shortcut icon" href="http://gestureworks.com/favicon.ico"/>
@@ -44,9 +44,6 @@
 			<div id="header-top-inner">
 
 				<ul>
-					<!-- <li class="tablet-n-desktop">
-						<a class="headerlink vertcenter" href='http://gestureworks.com/' target="_blank">GESTUREWORKS CORE</a>
-					</li> -->
 					<li>
 						<a class="headerlink vertcenter" href='http://gameplay3.gestureworks.com/' target="_blank">GAMEPLAY</a>
 					</li>
@@ -81,9 +78,6 @@
 					<li>
 						<a class="headerlink" href="http://wiki.gestureworks.com/doku.php" target="_blank">Wiki</a>
 					</li>
-					<!-- <li>
-						<a class="headerlink" href="http://gestureworks.com/about" target="_blank">About</a>
-					</li> -->
 				</ul>
 
 			</div><!-- /#headerright -->
@@ -104,9 +98,6 @@
 			<li>
 				<a class="headerlink" href="http://wiki.gestureworks.com/doku.php" target="_blank">Wiki</a>
 			</li>
-			<!-- <li>
-				<a class="headerlink" href="http://gestureworks.com/about" target="_blank">About</a>
-			</li> -->
 		</ul>
 
 	</section>
@@ -117,7 +108,7 @@
 			<img id="ribbon" src="images/ribbon.png">
 			<div id="gestureworks_core_innercontainer" class="vertcenter">
 				<h1 class="headerone white">GestureWorks Core</h1>
-				<p class="paragraphone white">GestureWorks Core version 1.5 is a powerful authoring solution and touch point cluster analysis system for multitouch. GestureWorks Core includes a library of over 300 pre-built gestures and includes support for the world’s first markup language for multitouch.</p>
+				<p class="paragraphone white">GestureWorks Core version 1.5 is a powerful authoring framework and touch point cluster analysis system for multitouch. GestureWorks Core includes a library of over 300 pre-built gestures and includes support for the world’s first markup language for multitouch.</p>
 			</div>
 		</section>
 
@@ -125,7 +116,8 @@
 			<image id="mult_lang_img" src="images/sec-lang-img.png" class="vertcenter desktop">
 			<div id="multiple_languages_innercontainer" class="vertcenter">
 				<h1 class="headerone white">Multiple Languages &amp; Frameworks</h1>
-				<p class="paragraphone white">GestureWorks Core for C++, .NET (C#), Java, and Python allows you to author in the language of your choice. GestureWorks Core provides standardized development and support for GML across multiple languages. We offer detailed tutorial examples showing how to use GestureWorks Core with Cinder, open Frameworks, Unity 3D, Java 2D, and Panda3D.</p>
+				<p class="paragraphone white">GestureWorks Core for C++, .NET (C#), Java, and Python allows you to author in the language of your choice. GestureWorks Core provides standardized development and support for Gesture Markup Language (GML) across multiple languages. We offer detailed tutorial examples showing how to use GestureWorks Core with Cinder, openFrameworks, Unity 3D, and Java 2D.</p>
+
 			</div>
 		</section>
 
@@ -140,7 +132,7 @@
 			<img id="gestured_auth_img" src="images/sec-auth-img.png" class="vertcenter tablet-n-desktop">
 			<div id="gestured_authoring_innercontainer" class="vertcenter">
 				<h1 class="headerone black">Gesture-Based Authoring</h1>
-				<p class="paragraphone black">GestureWorks Core comes complete with definitions for fully editable and extensible pre-built gestures and the capacity to develop virtually any number of gestures. GestureWorks Core offers support for the Gesture Markup Language (GML), the world’s first markup language for HCI. Support for physical properties like inertia filters, noise filters, and others are built in.</p>
+				<p class="paragraphone black">GestureWorks Core comes complete with definitions for fully editable and extensible pre-built gestures and the capacity to develop virtually any number of gestures. GestureWorks Core offers support for GML, the world’s first markup language for HCI. Support for physical properties like inertia filters, noise filters, and others are built in.</p>
 			</div>
 		</section>
 
@@ -148,7 +140,7 @@
 			<div id="universal_hci_innercontainer">
 				<div id="hci-faux-interior" class="vertcenter">
 					<h1 class="headerone white">Universal <br class="phone">HCI Engine <br class="phone">Coming Soon!</h1>
-					<p class="paragraphone white">GestureWorks Core has been developed as a universal HCI engine. Along with touch screens and motion-recognition devices, future plans for GestureWorks Core include the use of accelerometers, wearables, eye-tracking, and other HCI devices.</p>
+					<p class="paragraphone white">GestureWorks Core has been developed as a universal HCI engine. Along with touch screens and motion-recognition devices, future plans for GestureWorks Core include the use of accelerometers, surface tangibles, wearables, eye-tracking, and other HCI devices.</p>
 				</div>
 			</div>
 		</section>
@@ -157,7 +149,7 @@
 			<img id="ideum_table_img" src="images/sec-ideum-img.png" class="vertcenter desktop">
 			<div id="included_hardware_innercontainer" class="vertcenter">
 				<h1 class="headerone black">Included <br class="phone">with Ideum <br class="phone">Hardware</h1>
-				<p class="paragraphone black">A lifetime license for GestureWorks Core is included with the purchase of Ideum multitouch tables and walls. Ideum is a leader in high-end integrated touch products. Fortune 500 companies, top universities, research labs, museums, and government agencies have selected Ideum products for their exceptional performance and quality.</p>
+				<p class="paragraphone black">A lifetime license for GestureWorks Core is included with the purchase of Ideum <a href=": http://ideum.com/touch-tables/" target="_blank">multitouch tables</a> and <a href="http://ideum.com/touch-walls/" target="_blank">touch walls</a>. Ideum is a leader in high-end integrated touch products. Fortune 500 companies, top universities, research labs, museums, and government agencies have selected Ideum products for their exceptional performance and quality.</p>
 			</div>
 		</section>
 
@@ -182,13 +174,11 @@
 	<footer>
 
 		<ul id="footer" class="vertcenter">
-			<!-- <li class="footerlink white"><a href='http://gestureworks.com/core/' target="_blank">GESTUREWORKS</a></li> -->
 			<li class="footerlink white"><a href='http://gameplay3.gestureworks.com/' target="_blank">GAMEPLAY</a></li>
 			<li class="footerlink white"><a href='http://openexhibits.org/' target="_blank">OPEN EXHIBITS</a></li>
 			<li class="footerlink white"><a href="http://gestureworks-hci.tumblr.com/" target="_blank">BLOG</a></li>
 			<li class="footerlink white"><a href="http://ideum.com/creative-services" target="_blank">CREATIVE SERVICES</a></li>
 			<li class="footerlink white"><a href="http://wiki.gestureworks.com/" target="_blank">WIKI</a></li>
-			<!-- <li class="footerlink white"><a href="http://gestureworks.com/about" target="_blank">ABOUT</a></li> -->
 		</ul>
 
 	</footer>

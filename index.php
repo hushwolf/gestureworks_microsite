@@ -31,8 +31,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Lato:900,700,400,300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,900,700,500,100' rel='stylesheet' type='text/css'>
 
-	<script src="js/jquery.js"></script>
-
 </head>
 
 <body>

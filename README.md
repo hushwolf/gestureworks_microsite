@@ -1,7 +1,7 @@
 # gestureworks_microsite
 New Gestureworks Site
 
-The contents for the 'download' folder arwe not included in the repo - way too big.
+The contents for the 'download' folder are not included in the repo - way too big.
 
 Those contents (released under a Creative Commons Attribution Sharealike license) are available here:
 

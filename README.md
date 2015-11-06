@@ -1,8 +1,8 @@
 # gestureworks_microsite
 New Gestureworks Site
 
-The contents for the 'download' folder are not included in the repo - way too big.
+The contents for the 'downloads’ folder are not included in the repo - way too big.
 
-Those contents (released under a Creative Commons Attribution Sharealike license) are available here:
+Those contents (released under a Creative Commons Attribution ShareAlike license) are available here:
 
 http://ideum.com/spec-sheets/gwsite/downloads

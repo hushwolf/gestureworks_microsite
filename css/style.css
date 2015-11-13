@@ -143,11 +143,12 @@ ul#main-navigation li .headerlink {
 
 #main-content {
 	background-color: #ebebeb;
-	height: 4190px;
+	height: 4075px;
+	/*height: 4190px;*/
 	width: 100%;
 }
 body#legal #main-content {
-	height: 4200px;
+	height: 3940px;
 }
 
 #homepg {
@@ -158,7 +159,7 @@ body#legal #main-content {
 
 /* begin GESTUREWORKS CORE styles */
 #gestureworks_core_container {
-	background-image: url("../images/sec-intro-bg2.jpg");
+	background-image: url("../images/sec-intro-bg3.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
   box-sizing: border-box;
@@ -246,7 +247,7 @@ body#legal #main-content {
 
 /* begin GESTURED AUTHORING styles */
 #gestured_authoring_container {
-	background-image: url("../images/sec-gw-bg.png");
+	background-image: url("../images/sec-auth-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
   box-sizing: border-box;
@@ -381,11 +382,13 @@ a:hover.download-button {
 
 /* begin SOFTWARE SUPPORT styles */
 #software_support_container {
-	height: 360px;
+	/*height: 360px;*/
+	height: 260px;
 	margin: 0 auto;
 	max-width: 1280px;
 	position: relative;
-  width: 840px;
+  width: 740px;
+  /*width: 840px;*/
 }
 #table_sales_img {
 	max-width: 48%;
@@ -398,17 +401,32 @@ a:hover.download-button {
 	text-align: left;
 	width: 50%;
 }
-#software_support_innercontainer h1 {
+#software_support_innercontainer2 {
+  box-sizing: border-box;
+	float: left;
+	padding-left: 5%;
+	text-align: left;
+	width: 60%;
+}
+#software_support_innercontainer3 {
+  box-sizing: border-box;
+	float: left;
+	padding-left: 5%;
+	text-align: left;
+	width: 40%;
+}
+#software_support_innercontainer h1, #software_support_innercontainer2 h1  {
 	font-size: 24px;
 	font-weight:200;
 	margin-top: 0;
 }
-#software_support_innercontainer p {
+#software_support_innercontainer p, #software_support_innercontainer2 p, #software_support_innercontainer3 p {
 	color: #777f88;
 	width: 90%;
 }
-#software_support_innercontainer p:last-of-type {
-	margin: 2em 0 0 0;
+#software_support_innercontainer p:last-of-type, #software_support_innercontainer2 p:last-of-type, #software_support_innercontainer3 p:last-of-type {
+	/*margin: 2em 0 0 0;*/
+	margin: 0;
 }
 /* end SOFTWARE SUPPORT styles */
 
@@ -504,10 +522,11 @@ p#copyright a:hover {
 
 @media (max-width: 750px) { /* phone */
 	#main-content {
-		height: 5620px;
+		height: 5450px;
+		/*height: 5620px;*/
 	}
 	body#legal #main-content {
-    height: 10385px;
+    height: 10185px;
 	}
 	#legal_container {
 		padding: 25px;
@@ -539,7 +558,7 @@ p#copyright a:hover {
 	/* begin GESTUREWORKS CORE styles */
 	#gestureworks_core_container {
 		background-color: #4e4e4e;
-		background-image: url("../images/mobile/290-sec-intro-bg2.jpg");
+		background-image: url("../images/mobile/290-sec-intro-bg3.jpg");
 		height: 680px;
 		padding: 0 22px;
 	}
@@ -613,7 +632,7 @@ p#copyright a:hover {
 
 	/* begin GESTURE-BASED AUTHORING styles */
 	#gestured_authoring_container{
-		background-image: url("../images/mobile/290-sec-gestures-bg.png");
+		background-image: url("../images/mobile/290-sec-gestures-bg.jpg");
 		height: 655px;
 		padding: 210px 22px 0;
 	}
@@ -713,7 +732,8 @@ p#copyright a:hover {
     background-position: top center;
     background-repeat: no-repeat;
 		box-sizing: border-box;
-		height: 580px;
+		height: 200px;
+		/*height: 580px; */
 		padding: 25px 22px 0;
     width: 100%;
 	}
@@ -721,6 +741,12 @@ p#copyright a:hover {
 		float:none;
 		top: 0;
 		width: 100%;
+	}
+	#software_support_innercontainer2, #software_support_innercontainer3 {
+		width: 100%;
+	}
+	#software_support_innercontainer3 {
+		margin-top: 20px;
 	}
 	#software_support_innercontainer.vertcenter {
     display: initial !important;
@@ -825,10 +851,11 @@ p#copyright a:hover {
 
 @media (min-width: 750px) and (max-width: 1280px) { /* large tablet + small desktop */
 	#main-content {
-		height: 3680px;
+		height: 3575px;
+		/*height: 3680px;*/
 	}
 	body#legal #main-content {
-    height: 5230px;
+    height: 5120px;
 	}
 	#legal_container {
 		padding: 60px;
@@ -848,7 +875,7 @@ p#copyright a:hover {
 
 	/* begin GESTUREWORKS CORE styles */
 	#gestureworks_core_container {
-		background-image: url("../images/mobile/720-sec-intro-bg2.jpg");
+		background-image: url("../images/mobile/720-sec-intro-bg3.jpg");
 		height: 420px;
 		padding: 0 55px;
 	}
@@ -890,7 +917,7 @@ p#copyright a:hover {
 
 	/* begin GESTURED AUTHORING styles */
 	#gestured_authoring_container {
-    background-image: url("../images/mobile/720-sec-gestures-bg2.jpg");
+    background-image: url("../images/mobile/720-sec-gestures-bg3.jpg");
     height: 420px;
 		padding: 0 55px;
   }
@@ -1028,5 +1055,6 @@ p#copyright a:hover {
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-size: 100%;
+		right: -40px;
 	}
 }

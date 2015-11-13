@@ -8,6 +8,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no minimal-ui">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="robots" content="index,follow"> 
 
 	<meta name="google-site-verification" content="Q4fbT19i5B31t-1Na3KFealmo_cedKWipriuC1DlKtQ" />
 
@@ -117,7 +118,7 @@
 	          <p>Your use of this website (“Site”) is subject to the following legal Terms of Use (“Agreement”). Please read this Agreement carefully, as you will be bound by its terms. IF YOU DO NOT AGREE TO ALL OF THESE TERMS, DO NOT USE THIS WEBSITE.</p>
 	          
 	          <h3>Licensing</h3>
-	          <p>Please see the individual licensing agreements for GestureWorks Core, <a href="http://www.openexhibits.org/" title="Open Exhibits Web Site" target="_blank">Open Exhibits</a> (now merged with GestureWorks Flash), GestureKey, and GestureWorks Gameplay.</p>
+	          <p>Please see the individual licensing agreements for GestureWorks Core, <a href="http://www.openexhibits.org/" title="Open Exhibits Web Site" target="_blank">Open Exhibits</a> (now merged with GestureWorks Flash), GestureKey, and <a href="http://gameplay3.gestureworks.com/" title="GestureWorks Gameplay Web Site" target="_blank">GestureWorks Gameplay</a>.</p>
 	        
 					  <h3>Revisions</h3>
 					  <p>We reserve the right to change or modify any of the terms and conditions contained in the Site Terms or any policy or guideline of the Site, at any time and in its sole discretion. Any changes or modification will be effective immediately upon posting of the revisions on the Site.</p>
@@ -220,7 +221,7 @@
 
 			</section><!-- /#legal_container -->
 
-			<section id="software_support_container">
+			<!-- <section id="software_support_container">
 				<img id="table_sales_img" src="images/mobile/290-sec-sales-img2.png" class="phone">
 				<img id="table_sales_img" src="images/mobile/720-sec-sales-img2.png" class="vertcenter tablet">
 				<img id="table_sales_img" src="images/sec-sales-img2.png" class="vertcenter desktop">
@@ -232,6 +233,21 @@
 						toll free: (855) 898-6824</br>
 						fax: (505) 792-1111</br>
 						email: <a class="footerlink" href="mailto:sales@ideum.com?subject=inquiry from Gestureworks microsite">sales@ideum.com</a>
+					</p>
+				</div>
+			</section> -->
+
+			<section id="software_support_container">
+				<div id="software_support_innercontainer2" class="vertcenter">
+					<h1 class="black">Software and Support</h1>
+					<p class="paragraphone black"><a href="http://ideum.com/contact/" target="_blank">Contact us</a> to learn more about GestureWorks Core software and support packages.</p> 
+				</div>
+				<div id="software_support_innercontainer3" class="vertcenter">
+					<p class="paragraphone black">
+						phone: (505) 792-1110</br>
+						toll free: (855) 898-6824</br>
+						fax: (505) 792-1111</br>
+						email: <a class="footerlink" href="mailto:sales@ideum.com?subject=Inquiry from the GestureWorks Web Site">sales@ideum.com</a>
 					</p>
 				</div>
 			</section>
@@ -247,6 +263,7 @@
 			<li class="footerlink white"><a href='http://openexhibits.org/' target="_blank">OPEN EXHIBITS</a></li>
 			<li class="footerlink white"><a href="http://gestureworks-hci.tumblr.com/" target="_blank">BLOG</a></li>
 			<li class="footerlink white"><a href="http://ideum.com/creative-services" target="_blank">CREATIVE SERVICES</a></li>
+			<li class="footerlink white"><a href="http://wiki.gestureworks.com/" target="_blank">WIKI</a></li>
 			<li class="footerlink white"><a href="/">HOME</a></li>
 		</ul>
 

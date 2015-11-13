@@ -32,7 +32,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,900,700,500,100' rel='stylesheet' type='text/css'>
 
 </head>
-
+<?php flush(); ?>
 <body>
 
 	<header id="header">
@@ -58,7 +58,7 @@
 
 			<div id="gestureworks_icon" class="vertcenter">
 
-				<a href="/" target="_blank">
+				<a href="/">
 					<img src="images/logo-gw-core.png">
 				</a>
 
@@ -116,7 +116,7 @@
 				<img id="mult_lang_img" src="images/sec-lang-img.png" class="vertcenter desktop">
 				<div id="multiple_languages_innercontainer" class="vertcenter">
 					<h1 class="headerone white">Multiple Languages &amp; Frameworks</h1>
-					<p class="paragraphone white">GestureWorks Core for C++, .NET (C#), Java, and Python allows you to author in the language of your choice. GestureWorks Core provides standardized development and support for <a href="http://www.gestureml.org/doku.php">Gesture Markup Language</a> (GML) across multiple languages. We offer detailed tutorial examples showing how to use GestureWorks Core with Cinder, openFrameworks, Unity 3D, and Java 2D.</p>
+					<p class="paragraphone white">GestureWorks Core for C++, .NET (C#), Java, and Python allows you to author in the language of your choice. GestureWorks Core provides standardized development and support for <a href="http://www.gestureml.org/" target="_blank">Gesture Markup Language</a> (GML) across multiple languages. We offer detailed tutorial examples showing how to use GestureWorks Core with Cinder, openFrameworks, Unity 3D, and Java 2D.</p>
 
 				</div>
 			</section>
@@ -129,7 +129,7 @@
 			</section>
 
 			<section id="gestured_authoring_container">
-				<img id="gestured_auth_img" src="images/sec-auth-img.png" class="vertcenter desktop">
+				<!-- <img id="gestured_auth_img" src="images/sec-auth-img.png" class="vertcenter desktop"> -->
 				<div id="gestured_authoring_innercontainer" class="vertcenter">
 					<h1 class="headerone black">Gesture-Based Authoring</h1>
 					<p class="paragraphone black">GestureWorks Core comes complete with definitions for fully editable and extensible pre-built gestures and the capacity to develop virtually any number of gestures. GestureWorks Core offers support for GML, the world’s first markup language for HCI. Support for physical properties like inertia filters, noise filters, and others are built in.</p>
@@ -157,7 +157,7 @@
 				<div id="gesture_library_innercontainer">
 					<div id="gesture-library-interior">
 						<h1 class="headerone black">Icons &amp; Fonts</h1>
-						<p class="paragraphone black">The GestureWorks Gesture Library, based on our illustrations, is available for download as both an icon set and as a font-family. These illustrations are released under a <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution Sharealike license</a>.</p>
+						<p class="paragraphone black">The GestureWorks Gesture Library, based on our illustrations, is available for download as both an icon set and a font-family. These illustrations are released under a <a href="http://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">Creative Commons Attribution Sharealike license</a>.</p>
 					</div>
 					<div id="gesture-library-interior-bottom">
 						<div id="gesture-icons">
@@ -180,7 +180,7 @@
 				</div>
 			</section>
 
-			<section id="software_support_container">
+			<!-- <section id="software_support_container">
 				<img id="table_sales_img" src="images/mobile/290-sec-sales-img2.png" class="phone">
 				<img id="table_sales_img" src="images/mobile/720-sec-sales-img2.png" class="vertcenter tablet">
 				<img id="table_sales_img" src="images/sec-sales-img2.png" class="vertcenter desktop">
@@ -192,6 +192,21 @@
 						toll free: (855) 898-6824</br>
 						fax: (505) 792-1111</br>
 						email: <a class="footerlink" href="mailto:sales@ideum.com?subject=inquiry from Gestureworks microsite">sales@ideum.com</a>
+					</p>
+				</div>
+			</section> -->
+
+			<section id="software_support_container">
+				<div id="software_support_innercontainer2" class="vertcenter">
+					<h1 class="black">Software and Support</h1>
+					<p class="paragraphone black"><a href="http://ideum.com/contact/" target="_blank">Contact us</a> to learn more about GestureWorks Core software and support packages.</p> 
+				</div>
+				<div id="software_support_innercontainer3" class="vertcenter">
+					<p class="paragraphone black">
+						phone: (505) 792-1110</br>
+						toll free: (855) 898-6824</br>
+						fax: (505) 792-1111</br>
+						email: <a class="footerlink" href="mailto:sales@ideum.com?subject=Inquiry from the GestureWorks Web Site">sales@ideum.com</a>
 					</p>
 				</div>
 			</section>
@@ -208,7 +223,7 @@
 			<li class="footerlink white"><a href="http://gestureworks-hci.tumblr.com/" target="_blank">BLOG</a></li>
 			<li class="footerlink white"><a href="http://ideum.com/creative-services" target="_blank">CREATIVE SERVICES</a></li>
 			<li class="footerlink white"><a href="http://wiki.gestureworks.com/" target="_blank">WIKI</a></li>
-			<li class="footerlink white"><a href="/legal">LEGAL</a></li>
+			<li class="footerlink white"><a href="legal">LEGAL</a></li>
 		</ul>
 
 		<p id="copyright">

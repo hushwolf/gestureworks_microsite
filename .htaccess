@@ -1,0 +1,73 @@
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 momnth"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/x-javascript "access plus 1 year"
+ExpiresByType application/x-shockwave-flash "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresDefault "access plus 2 days"
+</IfModule>
+## EXPIRES CACHING ##
+
+RewriteEngine on
+# make sure is not a directory
+RewriteCond %{REQUEST_FILENAME} !-d
+# make sure is an existing html file
+RewriteCond %{REQUEST_FILENAME}\.php -f
+# rewrite page to page.php
+RewriteRule ^(.*)$ $1.php
+
+#To be SEO friendly and avoid double content, redirect the .php urls:
+#Redirects domain.com/page.php to domain.com/page
+# make sure is not directory
+RewriteCond %{REQUEST_FILENAME} !-d
+# make sure is an existing php file
+RewriteCond %{REQUEST_FILENAME}\.php -f
+# request URI ends with .php
+RewriteCond %{REQUEST_URI} ^(.+)\.php$
+# redirect from page.php to page
+RewriteRule (.*)\.php$ /$1 [R=301,L]
+
+
+Redirect permanent /pages/community-main-site                      	 http://gestureworks.com
+Redirect permanent /collections/all                                	 http://gestureworks.com
+Redirect permanent /pages/core-home                                	 http://gestureworks.com
+Redirect permanent /pages/core-features                            	 http://gestureworks.com
+Redirect permanent /pages/core-features-comparison                 	 http://gestureworks.com
+Redirect permanent /pages/core-features-publishing                 	 http://gestureworks.com
+Redirect permanent /pages/core-features-gallery                    	 http://gestureworks.com
+Redirect permanent /pages/core-community                           	 http://gestureworks.com
+#Redirect permanent /pages/flash-home                               	 http://gestureworks.com/flash
+#Redirect permanent /pages/flash-community                          	 http://gestureworks.com/flash
+#Redirect permanent /pages/flash-features                           	 http://gestureworks.com/flash
+#Redirect permanent /pages/flash-features-comparison                	 http://gestureworks.com/flash
+#Redirect permanent /pages/flash-features-publishing                	 http://gestureworks.com/flash
+#Redirect permanent /pages/flash-features-gestures                  	 http://gestureworks.com/flash
+#Redirect permanent /pages/flash-features-components                	 http://gestureworks.com/flash
+#Redirect permanent /pages/flash-features-gallery                   	 http://gestureworks.com/flash
+#Redirect permanent /pages/gesturekey-home                          	 http://gestureworks.com/gesturekey
+#Redirect permanent /pages/gesturekey-community                     	 http://gestureworks.com/gesturekey
+#Redirect permanent /pages/gesturekey-home                          	 http://gestureworks.com/gesturekey
+#Redirect permanent /pages/gesturekey-features-features-table       	 http://gestureworks.com/gesturekey
+#Redirect permanent /pages/gesturekey-features-gestures             	 http://gestureworks.com/gesturekey
+#Redirect permanent /pages/gesturekey-features-gallery              	 http://gestureworks.com/gesturekey
+Redirect permanent /pages/core-features-gestures                   	 http://gestureworks.com
+Redirect permanent /pages/services                                 	 http://ideum.com/creative-services
+Redirect permanent /blogs/built-with-gestureworks                  	 http://ideum.com/creative-services
+Redirect permanent /pages/about-main-site                          	 http://gestureworks.com
+Redirect permanent /pages/main-site-about-partners                 	 http://gestureworks.com
+Redirect permanent /pages/contact                                  	 http://ideum.com/contact
+
+Redirect permanent /blogs/news                                     	 http://www.tumblr.com/blog/gestureworks-hci
+
+Redirect permanent /blogs/tutorials                                	 http://wiki.gestureworks.com/
+#Redirect permanent /pages/gesturekey-documentation                 	 http://wiki.gestureworks.com/index.php/GestureKey:GestureKey
+#Redirect permanent /pages/gesturekey-documentation-requirements    	 http://wiki.gestureworks.com/index.php/GestureKey:GestureKey_Requirements
+#Redirect permanent /pages/documentation-flash                      	 http://wiki.gestureworks.com/index.php/GestureWorksFlash:GestureWorks_Flash
+Redirect permanent /pages/core-documentation                       	 http://wiki.gestureworks.com/
+

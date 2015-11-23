@@ -106,8 +106,11 @@
 		<div id="homepg">
 
 			<section id="legal_container">
+
 				<div id="legal_innercontainer">
+
 					<h1 class="headerone black">Gestureworks.com <br class="tablet">License Agreement</h1>
+
 					<div class="paragraphone black">
           
 	          <h3>Description of Service</h3>
@@ -118,7 +121,7 @@
 	          <p>Your use of this website (“Site”) is subject to the following legal Terms of Use (“Agreement”). Please read this Agreement carefully, as you will be bound by its terms. IF YOU DO NOT AGREE TO ALL OF THESE TERMS, DO NOT USE THIS WEBSITE.</p>
 	          
 	          <h3>Licensing</h3>
-	          <p>Please see the individual licensing agreements for GestureWorks Core, <a href="http://www.openexhibits.org/" title="Open Exhibits Web Site" target="_blank">Open Exhibits</a> (now merged with GestureWorks Flash), GestureKey, and <a href="http://gameplay3.gestureworks.com/" title="GestureWorks Gameplay Web Site" target="_blank">GestureWorks Gameplay</a>.</p>
+	          <p>Please see the individual licensing agreements for <a href="#core" title="GestureWorks Core License">GestureWorks Core</a>, <a href="http://www.openexhibits.org/" title="Open Exhibits Web Site" target="_blank">Open Exhibits</a> (now merged with GestureWorks Flash), GestureKey, and <a href="#gameplay" title="GestureWorks Gameplay Web License" target="_blank">GestureWorks Gameplay</a>.</p>
 	        
 					  <h3>Revisions</h3>
 					  <p>We reserve the right to change or modify any of the terms and conditions contained in the Site Terms or any policy or guideline of the Site, at any time and in its sole discretion. Any changes or modification will be effective immediately upon posting of the revisions on the Site.</p>
@@ -220,6 +223,115 @@
         </div><!-- /#legal_innercontainer -->
 
 			</section><!-- /#legal_container -->
+
+			<a name="core" id="core" style="display:block;position:relative;top:-110px;"></a>
+
+			<section id="legal_container" style="border-bottom:1px solid #ccc;border-top:1px solid #ccc;">
+
+				<div id="legal_innercontainer">
+					
+					<h1 class="headerone black">Gestureworks Core <br class="tablet">License Agreement</h1>
+
+					<div class="paragraphone black">
+			
+						<h3>Summary of Important Use Restrictions</h3>
+						<p><strong>PLEASE READ THE FOLLOWING TERMS AND CONDITIONS CAREFULLY BEFORE DOWNLOADING, INSTALLING, OR USING GESTUREWORKS SOFTWARE. THE TERMS AND CONDITIONS OF THIS SOFTWARE LICENSE AGREEMENT (&ldquo;AGREEMENT&rdquo;) GOVERN USE OF THE SOFTWARE.</strong></p>
+						
+						<h3>Agreement</h3>
+						<p>This is an Agreement between Licensor and Licensee, who is being licensed to use GestureWorks and associated components. The package will be referenced to as the &ldquo;Software&rdquo; in this Agreement. GestureWorks Core are covered under this agreement.</p>
+						
+						<h3>Non-Exclusive License and Ownership</h3>
+						<p>Licensee acknowledges that this is only a limited nonexclusive, nontransferable license to install and execute the executable form of the Software. Licensor is and remains the owner of all titles, rights, and interests in the Software. The Software is licensed, not sold.</p>
+						
+						<h3>Trial Use</h3>
+						<p>If you download the trial version, be advised that license is for evaluation of Software only. Run-time is limited, and distribution for completed applications is prohibited without a licensed copy of Software. The Licensee can distribute finished applications built with the GestureWorks framework on one computer for trial and evaluation purposes only. Any other distribution of completed applications requires the purchase of a commercial License. The trial Software can only be used for 30 days.</p>
+						
+						<h3>Professional Version</h3>
+						<p>This License permits Licensee to install the Professional Version of the software on more than one computer system, as long as the Software will not be used on more than one computer system simultaneously. Licensee will not make copies of the Software or allow copies of the Software to be made by others, unless authorized by this License Agreement. Licensee may make copies of the Software for backup purposes only.</p>
+						
+						<h3>Site License Version</h3>
+						<p>This License permits Licensee to install the Site Version of the software on up to 20 computer systems, as long as they are located at the same physical address and used by the Licensee and no other entities. Licensee will not make copies of the Software or allow copies of the Software to be made by others, unless authorized by this License Agreement. Licensee may make copies of the Software for backup purposes only.</p>
+						
+						<h3>License Term, Support and Upgrades</h3>
+						<p>Licensees of all Standard, Professional and Site License versions have access to upgrades, updates and patches in accordance with GestureWorks&rsquo; current policies. Licensees of the Professional and Site License versions of Software have access to the GestureWorks support site or other support mechanisms if included at the time of purchase. We make no guarantees about support or future upgrades.</p>
+						
+						<h3>No Implied License</h3>
+						<p>Except for the limited rights and license expressly granted hereunder, no other license is granted, no other use is permitted and Licensor (and its suppliers) shall retain all right, title and interest in and to the Licensed Products (and all patent rights, copyright rights, trade secret rights and all other intellectual property and proprietary rights embodied therein).</p>
+						
+						<h3>Authoring Application Software Restriction</h3>
+						<p>GestureWorks CORE DLL cannot distributed with third-party authoring tools either for sale or free release without a separate license from GestureWorks. Users of any third-party authoring tools must purchase their own copy of the GestureWorks license.</p>
+						
+						<h3>Embedded Software Restriction</h3>
+						<p>You may not distribute Software if it is provided as the user interface of primary functionality on an electronic device or system if more than 500 such systems are to be sold. This type of usage requires a separate license from GestureWorks. GestureWorks allows for unlimited distribution in the case self-contained applications and can be used on computer systems, personal electronic devices or set top systems or televisions, as long as the Software does not provide the primary functionality or user interface of the device.</p>
+						
+						<h3>No Warranty</h3>
+						<p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND. GESTUREWORKS AND ITS LICENSORS DISCLAIM ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT, AND ANY WARRANTIES AND CONDITIONS ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED FROM GESTUREWORKS OR ELSEWHERE WILL CREATE ANY WARRANTY OR CONDITION NOT EXPRESSLY STATED IN THIS AGREEMENT.</p>
+						
+						<h3>Limitation of Liability</h3>
+						<p>Notwithstanding the foregoing, LICENSOR IS NOT LIABLE TO LICENSEE FOR ANY DAMAGES, INCLUDING COMPENSATORY, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, CONNECTED WITH OR RESULTING FROM THIS LICENSE AGREEMENT OR LICENSEE&rsquo;S USE OF THIS SOFTWARE. Licensee&rsquo;s jurisdiction may not allow such a limitation of damages, so this limitation may not apply. Licensee agrees to defend and indemnify Licensor and hold Licensor harmless from all claims, losses, damages, complaints, or expenses connected with or resulting from Licensee&rsquo;s business operations.</p>
+						
+						<h3>Ownership</h3>			
+						<p>You may not reverse engineer, decompile or disassemble the SOFTWARE. Ideum shall retain title and all ownership rights to the Software.</p>
+						
+						<h3>General</h3>
+						<p>Licensor has the right to terminate this License Agreement and Licensee&rsquo;s right to use this Software upon any material breach by Licensee. Licensee agrees to return to Licensor or to destroy all copies of the Software upon termination of the License. This License Agreement is the entire and exclusive agreement between Licensor and Licensee regarding this Software. This License Agreement replaces and supersedes all prior negotiations, dealings, and agreements between Licensor and Licensee regarding this Software. This License Agreement is governed by the law of the State of New Mexico in the United States and is applicable to New Mexico contracts. This License Agreement is valid without Licensor&rsquo;s signature. It becomes effective upon the earlier of Licensee&rsquo;s signature or Licensee&rsquo;s use of the Software. Any terms or conditions contained in any other documents of purchase that are inconsistent with or in addition to the terms and conditions of this Agreement are deemed null and hereby rejected by GestureWorks.</p>
+						
+						<p><em>Updated 3/06/14</em></p>
+						
+						<p>GestureWorks is the property of Ideum, Inc. and is protected by US patents.</p>
+			
+					</div><!-- /.paragraphone black -->
+			
+        </div><!-- /#legal_innercontainer -->
+
+			</section><!-- /#legal_container -->
+
+			<a name="gameplay" id="gameplay" style="display:block;position:relative;top:-110px;"></a>
+
+			<section id="legal_container">
+
+				<div id="legal_innercontainer">
+
+					<h1 class="headerone black">Gestureworks Gameplay Software <br class="tablet">License Agreement</h1>
+
+					<div class="paragraphone black">
+					
+						<h3>Summary of Important Use Restrictions</h3>
+						<p><strong>PLEASE READ THE FOLLOWING TERMS AND CONDITIONS CAREFULLY BEFORE DOWNLOADING, INSTALLING OR USING (EITHER THE TRIAL OR FULL VERSION) GESTUREWORKS SOFTWARE. THE TERMS AND CONDITIONS OF THIS SOFTWARE LICENSE AGREEMENT (&ldquo;AGREEMENT&rdquo;) GOVERN USE OF THE SOFTWARE.</strong></p>
+						
+						<h3>Agreement</h3>
+						<p>This is an Agreement between Licensor and Licensee, who is being licensed to use GestureWorks Software and associated components. The package will be referenced to as the &ldquo;Software&rdquo; in this Agreement. GestureWorks Gameplay product is covered under this agreement.</p>
+						
+						<h3>Non-Exclusive License and Ownership</h3>
+						<p>Licensee acknowledges that this is only a limited nonexclusive, non-transferable license to install and execute the executable form of the Software. Licensor is and remains the owner of all titles, rights, and interests in the Software. The Software is licensed, not sold. The trial Software can only be used for 30 days.</p>
+						
+						<h3>Approved Use</h3>
+						<p>This License permits Licensee to install GestureWorks Gameplay Software on more than one computer system, as long as the Software will not be used on more than one computer system simultaneously. Licensee will not make copies of the Software or allow copies of the Software to be made by others, unless authorized by this License Agreement. Licensee may make copies of the Software for backup purposes only. Under no circumstances can users modify or share the code that makes up the Software.</p>
+						
+						<h3>Non-Commercial Use</h3>
+						<p>GestureWorks Gameplay is not to be used commercially in anyway including, but not limited to, use with computer kiosks or computer-based exhibits, arcades, or other public venues. Gameplay is for personal use only and cannot be resold or repackaged in anyway.</p>
+						
+						<h3>License Term, Support and Upgrades</h3>
+						<p>All commercial Software (Professional and Site License versions) are subscription based and will remain in effect for a period of one year from the date of purchase unless terminated earlier in accordance with this agreement. Under this Agreement the licenses will automatically terminate, with or without notice from GestureWorks, if the licensee fails to renew. As a licensee of the Software you have access to the GestureWorks support site and access to upgrades, updates and patches in accordance with GestureWork&rsquo;s current policies.</p>
+						
+						<h3>No Warranty</h3>
+						<p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND. GESTUREWORKS AND ITS LICENSORS DISCLAIM ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT, AND ANY WARRANTIES AND CONDITIONS ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED FROM GESTUREWORKS OR ELSEWHERE WILL CREATE ANY WARRANTY OR CONDITION NOT EXPRESSLY STATED IN THIS AGREEMENT.</p>
+						
+						<h3>Limitation of Liability</h3>
+						<p>LICENSOR IS NOT LIABLE TO LICENSEE FOR ANY DAMAGES, INCLUDING COMPENSATORY, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, CONNECTED WITH OR RESULTING FROM THIS LICENSE AGREEMENT OR LICENSEE&rsquo;S USE OF THIS SOFTWARE. Licensee&rsquo;s jurisdiction may not allow such a limitation of damages, so this limitation may not apply. Licensee agrees to defend and indemnify Licensor and hold Licensor harmless from all claims, losses, damages, complaints, or expenses connected with or resulting from Licensee&rsquo;s business operations.</p>
+						
+						<h3>General</h3>
+						<p>Licensor has the right to terminate this License Agreement and Licensee&rsquo;s right to use this Software upon any material breach by Licensee. Licensee agrees to return to Licensor or to destroy all copies of the Software upon termination of the License. This License Agreement is the entire and exclusive agreement between Licensor and Licensee regarding this Software. This License Agreement replaces and supersedes all prior negotiations, dealings, and agreements between Licensor and Licensee regarding this Software. This License Agreement is governed by the law of the State of New Mexico in the United States and is applicable to New Mexico contracts. This License Agreement is valid without Licensor&rsquo;s signature. It becomes effective upon the earlier of Licensee&rsquo;s signature or Licensee&rsquo;s use of the Software. Any terms or conditions contained in any other documents of purchase that are inconsistent with or in addition to the terms and conditions of this Agreement are deemed null and hereby rejected by GestureWork and its parent company Ideum, Inc.</p>
+						
+						<p>GestureWorks and GestureWorks Gameplay is the property of Ideum, Inc. and is protected by US patents.</p>
+						
+						<p><em>Last revised: September 16, 2013</em></p>
+
+					</div>
+
+				</div>
+
+			</section>
 
 			<!-- <section id="software_support_container">
 				<img id="table_sales_img" src="images/mobile/290-sec-sales-img2.png" class="phone">

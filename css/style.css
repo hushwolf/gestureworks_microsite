@@ -148,7 +148,7 @@ ul#main-navigation li .headerlink {
 	width: 100%;
 }
 body#legal #main-content {
-	height: 3940px;
+	height: 8100px;
 }
 
 #homepg {
@@ -526,7 +526,7 @@ p#copyright a:hover {
 		/*height: 5620px;*/
 	}
 	body#legal #main-content {
-    height: 10185px;
+    height: 21355px;
 	}
 	#legal_container {
 		padding: 25px;
@@ -855,7 +855,7 @@ p#copyright a:hover {
 		/*height: 3680px;*/
 	}
 	body#legal #main-content {
-    height: 5120px;
+    height: 10725px;
 	}
 	#legal_container {
 		padding: 60px;

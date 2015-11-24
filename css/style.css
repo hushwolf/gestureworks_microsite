@@ -9,6 +9,13 @@ html, body {
 	width: 100%;
 }
 
+body#legal {
+	display: block;
+	height: auto;
+  padding-bottom: 139px;
+  position: relative;
+}
+
 header {
 	background-color: white;
 	-webkit-box-shadow: 0 3px 5px -2px #666;
@@ -144,18 +151,20 @@ ul#main-navigation li .headerlink {
 #main-content {
 	background-color: #ebebeb;
 	height: 4075px;
-	/*height: 4190px;*/
 	width: 100%;
 }
 body#legal #main-content {
-	height: 8100px;
+	height: auto;
+	/*height: 8100px;*/
 }
 
 #homepg {
 	position: relative;
 	top: 139px;
 }
-
+body#legal #main-content #homepg {
+	padding-bottom: 139px;
+}
 
 /* begin GESTUREWORKS CORE styles */
 #gestureworks_core_container {
@@ -444,6 +453,10 @@ footer {
   padding: 0;
 	text-decoration: none;
 }
+body#legal footer {
+	position: absolute;
+  	top: auto; bottom: 32px;
+}
 ul#footer li a {
 	color: #fff;
 	font-family: 'Lato', sans-serif;
@@ -526,7 +539,8 @@ p#copyright a:hover {
 		/*height: 5620px;*/
 	}
 	body#legal #main-content {
-    height: 21355px;
+    height: auto;
+    /*height: 21355px;*/
 	}
 	#legal_container {
 		padding: 25px;
@@ -732,9 +746,11 @@ p#copyright a:hover {
     background-position: top center;
     background-repeat: no-repeat;
 		box-sizing: border-box;
-		height: 200px;
+		display: inline-block;
+		height: auto;
+		/*height: 200px;*/
 		/*height: 580px; */
-		padding: 25px 22px 0;
+		padding: 130px 22px 0;
     width: 100%;
 	}
 	#software_support_innercontainer {
@@ -855,7 +871,8 @@ p#copyright a:hover {
 		/*height: 3680px;*/
 	}
 	body#legal #main-content {
-    height: 10725px;
+    height: auto;
+    /*height: 10725px;*/
 	}
 	#legal_container {
 		padding: 60px;

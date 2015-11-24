@@ -821,10 +821,14 @@ p#copyright a:hover {
 	footer {
 		/*height: 60px;*/
 		padding: 8px 0;
+
 	}
 	#footer {
     height: auto;
   }
+  body#legal footer {
+    bottom: 2px;
+	}
 	ul#footer li a {
     font-size: 10px;
 	}
